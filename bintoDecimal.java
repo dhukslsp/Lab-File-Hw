@@ -13,5 +13,7 @@ public class bintoDecimal {
             pos = pos + 1;
         }
         System.out.println(sum);
+        // This is the way to make a commit on java
+        System.out.println("This commit in java");
     }
 }
