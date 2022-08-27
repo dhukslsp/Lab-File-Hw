@@ -1,7 +1,16 @@
 class test{
 	public static void main(String args[]){
+		try{
 		int a = 0;
 		int b = 5/a;
+	}
+	catch(ArithmeticException e){
+		System.out.println(e);
+		System.out.println("Working");	
+	}
+	finally{
+		System.out.println("Execute at any cost");
+	}
 	}
 }
 
