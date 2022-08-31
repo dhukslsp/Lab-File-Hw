@@ -4,5 +4,4 @@ public class attributeModify{
 		attributeModify myobj1 = new attributeModify();
 		myobj1.x = 12;
 		System.out.println(myobj1.x);
-	}
 }
